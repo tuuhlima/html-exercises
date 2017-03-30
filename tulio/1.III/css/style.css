@@ -16,11 +16,21 @@ section:target{
     display: block;
 }
 
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+body{
+	background-color :#dddddd;
+	font-family:Arial , sans-serif;
+}
+
+
 #menu ul {
 	padding:5px;
 	margin:0px;
 	list-style:none;
-    background-color: black;
 }
 
 #menu ul li{
@@ -35,7 +45,6 @@ section:target{
  
 	/* visual do link */
 	background-color:#EDEDED;
-	color: #333;
 	text-decoration: none;
 	border-bottom:3px solid #EDEDED;
 }
